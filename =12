@@ -1,0 +1,38 @@
+Requirement already satisfied: numpy in /home/codespace/.local/lib/python3.12/site-packages (2.3.1)
+Requirement already satisfied: pandas in /home/codespace/.local/lib/python3.12/site-packages (2.3.1)
+Requirement already satisfied: scikit-learn in /home/codespace/.local/lib/python3.12/site-packages (1.7.0)
+Collecting scikit-image
+  Downloading scikit_image-0.25.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (14 kB)
+Collecting opencv-python-headless
+  Downloading opencv_python_headless-4.12.0.88-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (19 kB)
+Collecting pyarrow
+  Downloading pyarrow-22.0.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (3.2 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/codespace/.local/lib/python3.12/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /home/codespace/.local/lib/python3.12/site-packages (from pandas) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in /home/codespace/.local/lib/python3.12/site-packages (from pandas) (2025.2)
+Requirement already satisfied: scipy>=1.8.0 in /home/codespace/.local/lib/python3.12/site-packages (from scikit-learn) (1.16.0)
+Requirement already satisfied: joblib>=1.2.0 in /home/codespace/.local/lib/python3.12/site-packages (from scikit-learn) (1.5.1)
+Requirement already satisfied: threadpoolctl>=3.1.0 in /home/codespace/.local/lib/python3.12/site-packages (from scikit-learn) (3.6.0)
+Requirement already satisfied: networkx>=3.0 in /home/codespace/.local/lib/python3.12/site-packages (from scikit-image) (3.3)
+Requirement already satisfied: pillow>=10.1 in /home/codespace/.local/lib/python3.12/site-packages (from scikit-image) (11.3.0)
+Collecting imageio!=2.35.0,>=2.33 (from scikit-image)
+  Downloading imageio-2.37.0-py3-none-any.whl.metadata (5.2 kB)
+Collecting tifffile>=2022.8.12 (from scikit-image)
+  Downloading tifffile-2025.10.16-py3-none-any.whl.metadata (31 kB)
+Requirement already satisfied: packaging>=21 in /home/codespace/.local/lib/python3.12/site-packages (from scikit-image) (25.0)
+Collecting lazy-loader>=0.4 (from scikit-image)
+  Downloading lazy_loader-0.4-py3-none-any.whl.metadata (7.6 kB)
+Collecting numpy
+  Using cached numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+Requirement already satisfied: six>=1.5 in /home/codespace/.local/lib/python3.12/site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+Downloading scikit_image-0.25.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (15.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.0/15.0 MB 34.8 MB/s eta 0:00:00
+Downloading opencv_python_headless-4.12.0.88-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (54.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.0/54.0 MB 47.7 MB/s eta 0:00:00
+Using cached numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.5 MB)
+Downloading pyarrow-22.0.0-cp312-cp312-manylinux_2_28_x86_64.whl (47.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.7/47.7 MB 43.1 MB/s eta 0:00:00
+Downloading imageio-2.37.0-py3-none-any.whl (315 kB)
+Downloading lazy_loader-0.4-py3-none-any.whl (12 kB)
+Downloading tifffile-2025.10.16-py3-none-any.whl (231 kB)
+Would install imageio-2.37.0 lazy_loader-0.4 numpy-2.2.6 opencv-python-headless-4.12.0.88 pyarrow-22.0.0 scikit-image-0.25.2 tifffile-2025.10.16
